@@ -15,26 +15,23 @@
 
 
 
-
+def pmt(rate,nper, pv)
+end
 puts "Enter the interest rate %"
   rate= gets.chomp.to_f/100
 
-puts "Enter the number of payments"
+puts "Enter the total number of loan payments"
   nper= gets.chomp.to_i
 
-puts "Enter the loan amount"
+puts "Enter the principal loan amount"
   pv= gets.chomp.to_i
 
   i=(1+rate/12)**(12/12)-1
 
 annuity=(1-(1/(1+i))**nper)/i
 
-# def pmt(rate,nper,pv)
-#   rate=rate
-#   nper=nper
-#   pv=pv
   pmt=pv/annuity
-# end
+
 
 puts "Your monthly payments will be $#{pmt.to_i}"
 
