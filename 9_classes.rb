@@ -49,17 +49,17 @@ person4.last_name = "Snyder"
 person4.grade = "A"
 puts person4.inspect
 
-puts person1.full_name
-puts person1.role
-puts person2.full_name
-puts person2.role
-puts person3.full_name
-puts person3.grade
-puts person4.full_name
-puts person4.grade
+# puts person1.full_name
+# puts person1.role
+# puts person2.full_name
+# puts person2.role
+# puts person3.full_name
+# puts person3.grade
+# puts person4.full_name
+# puts person4.grade
 
 # What would happen if I tried doing:
-#     person4.role
+  puts person4.role
 # What about:
-#     person1.grade
+  puts person1.grade
 # Why?
